@@ -1,0 +1,19 @@
+<script src="./js/admin_script.js"></script>
+include 'C:\xampp\htdocs\Ecom\include\connect.php';
+
+
+<?php 
+if (isset($_SESSION['loginname'])){ ?>
+    <li >
+<a class="nav-link" href="include/logout.php">Logout</a>
+</li>
+
+<?php 
+} else { ?>
+     <li >
+<a class="nav-link" href="./login.php">Login</a>
+</li>
+<li >
+<a class="nav-link" href="./register.php">Register</a>
+</li>
+<a href="/include/logout.php"></a>
