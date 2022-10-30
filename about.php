@@ -41,12 +41,12 @@ if(!isset($user_id)){
    <div class="flex">
 
       <div class="image">
-         <img src="images/about-img.jpg" alt="">
+         <img src="img/about.jpg" alt="">
       </div>
 
       <div class="content">
-         <h3>Why choose us?</h3>
-         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet voluptatibus aut hic molestias, reiciendis natus fuga, cumque excepturi veniam ratione iure. Excepturi fugiat placeat iusto facere id officia assumenda temporibus?</p>
+         <h3>Why us?</h3>
+         <p>We Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid atque maxime consequatur perferendis excepturi accusantium nulla assumenda quae quod deleniti. Quos qui temporibus minima soluta provident repellat aliquam ipsam non.</p>
          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
          <a href="contact.php" class="btn">Contact us</a>
       </div>
@@ -63,7 +63,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="img/users/IMG_30031.JPG" alt="">
-         <p>Lorem ipsum dolormg sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <p>One of the best site to buy your comic books from , this place also lets you donate your books. </p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -76,7 +76,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="img/users/IMG_42041.JPG" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <p>Books prices are somewhat expensive but the delievery services are great and the book quality is also good. </p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -88,7 +88,7 @@ if(!isset($user_id)){
 
       <div class="box">
          <img src="img/users/IMG_58178.JPG" alt="">
-         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt ad, quo labore fugiat nam accusamus quia. Ducimus repudiandae dolore placeat.</p>
+         <p>Very pleased with the services.</p>
          <div class="stars">
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
