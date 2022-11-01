@@ -115,12 +115,10 @@ if(isset($_POST['order_btn'])){
          </div>
          <div class="inputBox">
             <span>Payment Method :</span>
-            <select id="mySel" name="method" onsubmit="fun()">
+            <select id="mySel" name="method" >
                <option id="Cod" value="Cash on delivery">Cash on delivery</option>
                <option id="cc" value="Credit card">Credit Card</option>
                <option id="es" value="Esewa">E-Sewa</option>
-               <option id="khalti" value="Khalti">Khalti</option>
-               <option id="fone" value="Fonepay">Fonepay</option>
             </select>
          </div>
          <div class="inputBox">
@@ -156,7 +154,5 @@ if(isset($_POST['order_btn'])){
 
 <!-- custom js file link  -->
 <script src="js/script.js"></script>
-<script src="js/payment.js"></script>
-
 </body>
 </html>

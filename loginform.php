@@ -3,7 +3,7 @@ if (isset($_GET['error'])) {
 
     if ($_GET['error'] == 'password_incorrect') {
       ?>
-      <h4 style="">Login Failed due to incorrect password</h4>
+      <h4 >Login Failed due to incorrect password</h4>
       <?php
     }
   }
