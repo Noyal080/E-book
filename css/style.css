@@ -94,7 +94,24 @@ section{
    color:var(--black);
    font-size: 4rem;
 }
+.filter-button
+{
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 30px;
 
+}
+.filter-button:hover
+{
+    font-size: 18px;
+
+    border-radius: 5px;
+    text-align: center;
+
+
+}
 .btn,
 .option-btn,
 .delete-btn,
@@ -870,8 +887,23 @@ section{
    color:var(--purple);
 }
 
+/* Category */
 
+.grid {
+   position: relative;
+   width: 100%;
+   background: #fff;
+   color: #666666;
+   border-radius: 2px;
+   margin-bottom: 25px;
+   box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+}
 
+.grid .grid-body {
+   padding: 15px 20px 15px 20px;
+   font-size: 0.9em;
+   line-height: 1.9em;
+}
 
 /* media queries  */
 

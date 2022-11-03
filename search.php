@@ -40,7 +40,7 @@ include 'C:\xampp\htdocs\Ecom\addtocart.php';
 
 <section class="search-form">
    <form action="" method="post">
-      <input type="text" name="search" placeholder="search products..." class="box">
+      <input type="text" name="search" placeholder="Search Products..." class="box">
       <input type="submit" name="submit" value="search" class="btn">
    </form>
 </section>

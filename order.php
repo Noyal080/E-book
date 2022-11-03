@@ -58,7 +58,7 @@ if(!isset($user_id))
          <p> your orders : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
          <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
          <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
-         <?php if($fetch_orders['method'] == 'Esewa' && $fetch_orders['payment_status'] == 'pending') {?> <a class="btn btn-primary" href="https://www.esewa.com.np/" role="button">Pay now</a> <?php } ?>
+         <?php if($fetch_orders['method'] == 'Esewa' && $fetch_orders['payment_status'] == 'pending') {?> <a class="btn btn-primary" href="https://uat.esewa.com.np/" role="button">Pay now</a> <?php } ?>
       </div>
       <?php
        }

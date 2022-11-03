@@ -4,7 +4,7 @@
         include 'C:\xampp\htdocs\Ecom\include\connect.php';
         $uname = $_POST['username'];
         $password = $_POST['password'];
-        $email = $_POST['Email'];
+        
         if(empty($uname) || empty($password))
         {
             header("Location: userloginform.php?error=fields_are_empty");
@@ -12,6 +12,7 @@
         }
         else
         {
+            $email = $_POST['Email'];
             $query = "SELECT * FROM `users` WHERE Username =? OR Email =?";
             $stmt = mysqli_stmt_init($conn);
             if(!mysqli_stmt_prepare($stmt, $query))
@@ -28,7 +29,7 @@
                 $validatepass = password_verify($password, $row['Password']);
                 if($validatepass == false)
                 {
-                    header("Location: userloginform.php?error=you cant pass");
+                    header("Location: userloginform.php?error=Entered wrong information");
                     exit();
                     
                 }
