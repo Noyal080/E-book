@@ -35,15 +35,15 @@ include 'C:\xampp\htdocs\Ecom\addtocart.php';
 
    <div class="content">
       <h3>Hand Picked Book to your door.</h3>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, quod? Reiciendis ut porro iste totam.</p>
-      <a href="about.php" class="white-btn">discover more</a>
+      <p>The book you want is just a click away.</p>
+      <a href="about.php" class="white-btn">Discover more</a>
    </div>
 
 </section>
 
 <section class="products">
 
-   <h1 class="title">latest products</h1>
+   <h1 class="title">Our products</h1>
 
    <div class="box-container">
 
@@ -71,7 +71,7 @@ include 'C:\xampp\htdocs\Ecom\addtocart.php';
    </div>
 
    <div class="load-more" style="margin-top: 2rem; text-align:center">
-      <a href="shop.php" class="option-btn">load more</a>
+      <a href="shop.php" class="option-btn">See More</a>
    </div>
 
 </section>
@@ -85,9 +85,11 @@ include 'C:\xampp\htdocs\Ecom\addtocart.php';
       </div>
 
       <div class="content">
-         <h3>about us</h3>
-         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit quos enim minima ipsa dicta officia corporis ratione saepe sed adipisci?</p>
-         <a href="about.php" class="btn">read more</a>
+         <h3>About Us</h3>
+         <p>
+            We have one of the highest collection of Manga and Comic books to your liking and would like to keep on adding to this category a lot more.
+         </p>
+         <a href="about.php" class="btn">Read More</a>
       </div>
 
    </div>
@@ -97,8 +99,8 @@ include 'C:\xampp\htdocs\Ecom\addtocart.php';
 <section class="home-contact">
 
    <div class="content">
-      <h3>have any questions?</h3>
-      <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque cumque exercitationem repellendus, amet ullam voluptatibus?</p>
+      <h3>Have Any Questions?</h3>
+      <p>If u have any questions or feedback regarding our organization and website please feel free to contact us.</p>
       <a href="contact.php" class="white-btn">Contact us</a>
    </div>
 

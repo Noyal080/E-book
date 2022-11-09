@@ -118,6 +118,7 @@ if(isset($_POST['order_btn'])){
             <select id="mySel" name="method" >
                <option id="Cod" value="Cash on delivery">Cash on delivery</option>
                <option id="cc" value="Credit card">Credit Card</option>
+               <option id="kh" value="Khalti">Khalti</option>
                <option id="es" value="Esewa">E-Sewa</option>
             </select>
          </div>

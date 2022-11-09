@@ -19,7 +19,7 @@ if(!isset($user_id))
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>orders</title>
+   <title>Orders</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
@@ -58,7 +58,8 @@ if(!isset($user_id))
          <p> your orders : <span><?php echo $fetch_orders['total_products']; ?></span> </p>
          <p> total price : <span>$<?php echo $fetch_orders['total_price']; ?>/-</span> </p>
          <p> payment status : <span style="color:<?php if($fetch_orders['payment_status'] == 'pending'){ echo 'red'; }else{ echo 'green'; } ?>;"><?php echo $fetch_orders['payment_status']; ?></span> </p>
-         <?php if($fetch_orders['method'] == 'Esewa' && $fetch_orders['payment_status'] == 'pending') {?> <a class="btn btn-primary" href="https://uat.esewa.com.np/" role="button">Pay now</a> <?php } ?>
+         <?php if($fetch_orders['method'] == 'Esewa' && $fetch_orders['payment_status'] == 'pending') {?> <a class="btn btn-primary" href="https://uat.esewa.com.np/" role="button">Pay with Esewa</a> <?php }
+         else if($fetch_orders['method'] == 'Khalti' && $fetch_orders['payment_status'] == 'pending'){ ?> <a class="btn btn-primary" href="https://a.khalti.com/api/v2/" role="button">Pay with khalti </a> <?php }?>
       </div>
       <?php
        }
